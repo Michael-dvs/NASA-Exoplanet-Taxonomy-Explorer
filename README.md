@@ -1,4 +1,4 @@
-# 🪐 NASA Exoplanet Taxonomy Explorer
+# NASA Exoplanet Taxonomy Explorer
 
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.25%2B-FF4B4B.svg)](https://streamlit.io/)
@@ -10,7 +10,7 @@ Aplikasi eksplorasi data interaktif dan klasterisasi *unsupervised machine learn
 
 ---
 
-## 📌 Deskripsi Proyek
+## Deskripsi Proyek
 
 Proyek ini bertujuan untuk mengklasifikasikan ribuan planet luar surya secara otomatis menggunakan parameter fisis & orbital utama:
 - **Orbital Period (Hari)**
@@ -19,23 +19,23 @@ Proyek ini bertujuan untuk mengklasifikasikan ribuan planet luar surya secara ot
 
 Dengan menerapkan **transformasi logaritmik**, **Feature Scaling (StandardScaler)**, dan **K-Means Clustering ($k=3$)**, model berhasil mengidentifikasi 3 kategori utama taksonomi astrofisika:
 
-1. 🔥 **Hot Jupiters**: Planet gas raksasa bermassa tinggi yang mengorbit sangat dekat dengan bintang induknya (periode orbit singkat ~3.98 hari).
-2. ❄️ **Cold Gas Giants**: Planet raksasa masif di wilayah orbit luar yang dingin (mirip Jupiter & Saturnus).
-3. 🌍 **Terrestrial & Super-Earths**: Kelompok planet kebumian bermassa rendah hingga sedang yang menjadi target utama pencarian zona laik huni (*Habitable Zone*).
+1. **Hot Jupiters**: Planet gas raksasa bermassa tinggi yang mengorbit sangat dekat dengan bintang induknya (periode orbit singkat ~3.98 hari).
+2. **Cold Gas Giants**: Planet raksasa masif di wilayah orbit luar yang dingin (mirip Jupiter & Saturnus).
+3. **Terrestrial & Super-Earths**: Kelompok planet kebumian bermassa rendah hingga sedang yang menjadi target utama pencarian zona laik huni (*Habitable Zone*).
 
 ---
 
-## ✨ Fitur Utama
+## Fitur Utama
 
-- 🌌 **Dashboard Interaktif Streamlit**: Antarmuka modern ber-tema ruang angkasa (*Modern Dark Space Theme*).
-- 🚀 **Ruang Fitur 3D Interaktif**: Plot 3 Dimensi Plotly untuk memetakan distribusi 3 variabel fisis utama secara simultan.
-- 📊 **Scatter Plot 2D & Pemfilteran**: Visualisasi interaktif Massa vs Periode Orbit dengan filter taksonomi dan tahun penemuan.
-- 🧪 **Prediktor Kategori Planet Baru**: Form interaktif untuk memasukkan data planet baru dan memprediksi klasternya secara *real-time*.
-- 📈 **Evaluasi Klaster Otomatis**: Menampilkan metrik validasi klaster seperti **Silhouette Score**, **Davies-Bouldin Index**, dan **Calinski-Harabasz Index**.
+- **Dashboard Interaktif Streamlit**: Antarmuka modern ber-tema ruang angkasa (*Modern Dark Space Theme*).
+- **Ruang Fitur 3D Interaktif**: Plot 3 Dimensi Plotly untuk memetakan distribusi 3 variabel fisis utama secara simultan.
+- **Scatter Plot 2D & Pemfilteran**: Visualisasi interaktif Massa vs Periode Orbit dengan filter taksonomi dan tahun penemuan.
+- **Prediktor Kategori Planet Baru**: Form interaktif untuk memasukkan data planet baru dan memprediksi klasternya secara *real-time*.
+- **Evaluasi Klaster Otomatis**: Menampilkan metrik validasi klaster seperti **Silhouette Score**, **Davies-Bouldin Index**, dan **Calinski-Harabasz Index**.
 
 ---
 
-## 📁 Struktur Direktori
+## Struktur Direktori
 
 ```text
 NASA Exoplanet Archive/
@@ -48,7 +48,7 @@ NASA Exoplanet Archive/
 
 ---
 
-## 🛠️ Panduan Instalasi & Penggunaan
+## Panduan Instalasi & Penggunaan
 
 ### 1. Prasyarat
 Pastikan Anda telah menginstal **Python 3.9** atau versi yang lebih baru di sistem Anda.
@@ -83,7 +83,7 @@ Aplikasi secara otomatis akan terbuka di peramban web Anda pada alamat `http://l
 
 ---
 
-## 📊 Metrik Evaluasi Model
+## Metrik Evaluasi Model
 
 | Metrik Validasi | Keterangan |
 | :--- | :--- |
@@ -93,7 +93,7 @@ Aplikasi secara otomatis akan terbuka di peramban web Anda pada alamat `http://l
 
 ---
 
-## 🛠️ Teknologi yang Digunakan
+## Teknologi yang Digunakan
 
 - **Bahasa Pemrograman**: Python
 - **Machine Learning**: `scikit-learn` (K-Means, StandardScaler, Metrics)
@@ -103,7 +103,7 @@ Aplikasi secara otomatis akan terbuka di peramban web Anda pada alamat `http://l
 
 ---
 
-## 📜 Lisensi
+## Lisensi
 
 Proyek ini dilisensikan di bawah [MIT License](LICENSE).
 
